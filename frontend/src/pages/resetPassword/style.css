@@ -1,0 +1,23 @@
+body{
+    background-image: url('/images/Bglogo.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.form{
+    width: 300px !important;
+    min-height: 300px;
+}
+
+.form h2{
+    margin: 10px;
+}
+
+button{
+    border-radius: 1rem !important;
+    margin: 10px;
+    border: 0;
+}
