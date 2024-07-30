@@ -30,6 +30,7 @@ const Login = () => {
 
   return (
     <div className="container">
+    <div className='form-inner'>
       <form className="form" onSubmit={handleSubmit}>
         <h2>WELCOME</h2>
         <label htmlFor="email" style={{ display: "none" }}>Email:</label>
@@ -45,6 +46,7 @@ const Login = () => {
         </div>
         <input className="submit" type="submit" value="submit" />
       </form>
+    </div>
       <div className="side" style={{}}>
         <img src="/images/resto-removebg-preview.png" alt="Photo" />
       </div>

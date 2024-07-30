@@ -1,17 +1,23 @@
 body{
     background-image: url('/images/Bglogo.jpg');
     height: 100vh;
-    width: 100%;
+    /* width: 100%; */
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 30px;
 }
 .container{
-    width: 500px;
+    width:100%;
+    
     display: flex;
+    justify-content: center;
+    align-items: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 400ms;
+
 }
 
 .form{
@@ -21,16 +27,22 @@ body{
   align-items: center;
   gap: 10px; 
   background-color: rgb(0, 115, 255);  
-  width: 50%;
-  height:max-content;
-}
+  height:405px;
+  width: 100%;
 
-.side{
-    background-color: white;
-    width: 50%;
+  
+}
+.form-inner{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:rgb(0, 115, 255) ;
+}
+.side{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+   
 }
 img{
     width: 100%;
@@ -81,4 +93,14 @@ input{
     color: #fff;
     background-color: #000;
     border: solid #fff 1px;
+}
+@media screen and (max-width: 865px){
+    .side{
+        display: none;
+        background: none;
+    transition: 0.3s;
+        
+
+    }
+   
 }
